@@ -1,0 +1,24 @@
+@import "table.scss";
+@import "variables.scss";
+* {
+    box-sizing: border-box;
+}
+
+.page {
+    background-color: rgba($color: #000000, $alpha: 0.4);
+    width: 1400px;
+    height: 1000px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.green-card {
+    background-color: $first-block-color;
+}
+
+.blue-card {
+    background-color: $second-block-color;
+}
+
+.orange-card {
+    background-color: $third-block-color;
+}

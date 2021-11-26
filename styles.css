@@ -1,0 +1,138 @@
+.price-table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 115px;
+}
+
+.price-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  background: #334247;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+  margin-right: 18px;
+}
+.price-card:last-child {
+  margin: 0;
+}
+.price-card__title {
+  padding-top: 33px;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+}
+.price-card__subtitle {
+  padding-bottom: 33px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+}
+.price-card__comment {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  border-bottom: 25px solid #dc3f45;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  height: 0;
+  width: 147px;
+  top: 31px;
+  right: -30px;
+  transform: rotate(45deg);
+}
+.price-card__comment-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 25px;
+  color: #fff;
+  margin: auto;
+}
+.price-card__price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 380px;
+  height: 105px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 67px;
+}
+.price-card__description {
+  margin: 40px auto;
+  width: 327px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+.price-card__order-bth {
+  margin: auto;
+  width: 154px;
+  height: 40px;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #fff;
+  border-radius: 20px;
+  border: none;
+  margin: 39px 113px 40px 112px;
+}
+
+.options-list {
+  list-style-type: none;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: #fff;
+  padding: 0;
+}
+.options-list__item {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+.options-list__item:nth-child(odd) {
+  background-color: rgba(42, 52, 56, 0.5);
+}
+.options-list__img {
+  margin-left: 22px;
+}
+.options-list__text {
+  margin: 0;
+  margin-left: 22px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.page {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 1400px;
+  height: 1000px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.green-card {
+  background-color: #5bb189;
+}
+
+.blue-card {
+  background-color: #3a6ba5;
+}
+
+.orange-card {
+  background-color: #ec632a;
+}
+
+/*# sourceMappingURL=styles.css.map */
