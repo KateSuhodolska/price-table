@@ -72,6 +72,27 @@
         line-height: 18px;
         text-align: center;
     }
+    &__options-list {
+        list-style-type: none;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 18px;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    &__list-item {
+        width: 100%;
+        line-height: 50px;
+        height: 50px;
+        &:nth-child(odd) {
+            background-color: #2a343880;
+        }
+    }
+    &__list-img {
+        margin-left: 22px;
+        margin-right: 22px;
+    }
     &__order-bth {
         width: 154px;
         height: 40px;
@@ -82,39 +103,5 @@
         border: none;
         margin: 39px 113px 40px 112px;
         color: #fff;
-    }
-}
-
-.green-card {
-    background-color: $first-block-color;
-}
-
-.blue-card {
-    background-color: $second-block-color;
-}
-
-.orange-card {
-    background-color: $third-block-color;
-}
-
-.options-list {
-    list-style-type: none;
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 18px;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    &__item {
-        width: 100%;
-        line-height: 50px;
-        height: 50px;
-        &:nth-child(odd) {
-            background-color: #2a343880;
-        }
-    }
-    &__img {
-        margin-left: 22px;
-        margin-right: 22px;
     }
 }
