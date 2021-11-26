@@ -3,7 +3,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 115px;
 }
 
 .price-card {
@@ -25,7 +24,6 @@
         font-size: 35px;
         line-height: 43px;
         text-align: center;
-        color: #ffffff;
         margin: 0;
     }
     &__subtitle {
@@ -33,7 +31,8 @@
         font-weight: 300;
         font-size: 20px;
         line-height: 24px;
-        color: #ffffff;
+        text-align: center;
+        margin: 0;
     }
     &__comment {
         position: absolute;
@@ -52,7 +51,6 @@
         font-weight: 700;
         font-size: 14px;
         line-height: 25px;
-        color: #fff;
         margin: auto;
     }
     &__price {
@@ -73,43 +71,50 @@
         font-size: 15px;
         line-height: 18px;
         text-align: center;
-        color: #ffffff;
     }
     &__order-bth {
-        margin: auto;
         width: 154px;
         height: 40px;
         font-size: 14px;
         line-height: 17px;
         text-align: center;
-        color: #fff;
         border-radius: 20px;
         border: none;
         margin: 39px 113px 40px 112px;
+        color: #fff;
     }
+}
+
+.green-card {
+    background-color: $first-block-color;
+}
+
+.blue-card {
+    background-color: $second-block-color;
+}
+
+.orange-card {
+    background-color: $third-block-color;
 }
 
 .options-list {
     list-style-type: none;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
     width: 100%;
-    color: #fff;
     padding: 0;
+    margin: 0;
     &__item {
         display: flex;
         align-items: center;
         height: 50px;
-        line-height: 50px;
-        font-weight: 300;
-        font-size: 15px;
         &:nth-child(odd) {
             background-color: #2a343880;
         }
     }
     &__img {
         margin-left: 22px;
-    }
-    &__text {
-        margin: 0;
-        margin-left: 22px;
+        margin-right: 22px;
     }
 }
