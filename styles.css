@@ -9,7 +9,9 @@
   position: relative;
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 380px;
+  height: 770px;
   background: #334247;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
   margin-right: 18px;
@@ -31,9 +33,7 @@
   font-weight: 300;
   font-size: 20px;
   line-height: 24px;
-  text-align: center;
   color: #ffffff;
-  margin: 0;
 }
 .price-card__comment {
   position: absolute;
@@ -90,9 +90,7 @@
 
 .options-list {
   list-style-type: none;
-  font-weight: 300;
-  font-size: 15px;
-  line-height: 18px;
+  width: 100%;
   color: #fff;
   padding: 0;
 }
@@ -100,9 +98,12 @@
   display: flex;
   align-items: center;
   height: 50px;
+  line-height: 50px;
+  font-weight: 300;
+  font-size: 15px;
 }
 .options-list__item:nth-child(odd) {
-  background-color: rgba(42, 52, 56, 0.5);
+  background-color: #2a343880;
 }
 .options-list__img {
   margin-left: 22px;
@@ -117,7 +118,6 @@
 }
 
 .page {
-  background-color: rgba(0, 0, 0, 0.4);
   width: 1400px;
   height: 1000px;
   font-family: "Montserrat", sans-serif;
