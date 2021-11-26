@@ -106,8 +106,8 @@
     padding: 0;
     margin: 0;
     &__item {
-        display: flex;
-        align-items: center;
+        width: 100%;
+        line-height: 50px;
         height: 50px;
         &:nth-child(odd) {
             background-color: #2a343880;
