@@ -1,9 +1,3 @@
-.price-table {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .price-card {
   position: relative;
   display: flex;
