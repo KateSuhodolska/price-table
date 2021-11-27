@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   width: 380px;
   height: 770px;
   background: #334247;
@@ -104,8 +105,8 @@
 }
 
 .page {
-  width: 1440px;
-  height: 1000px;
+  width: 100vw;
+  height: 100vh;
   background-color: #141b1c;
   display: flex;
   justify-content: center;
