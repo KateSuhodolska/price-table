@@ -1,4 +1,4 @@
-The site is available at https://katesuhodolska.github.io/Price-table/
+The site is available at https://katesuhodolska.github.io/price-table/
 
 The page can be used as a price list for the product.
 
