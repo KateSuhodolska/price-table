@@ -1,28 +1,34 @@
 @import "table.scss";
 @import "variables.scss";
+@import "breakpoints.scss";
+
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  @include for-large-up {
+    overflow: hidden;
+  }
 }
 
 .page {
-    width: 100vw;
-    height: 100vh;
-    background-color: #141b1c;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #ffffff;
-    font-family: "Montserrat", sans-serif;
+  background-color: #141b1c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
 }
 
 .green-card {
-    background-color: $first-block-color;
+  background-color: $first-block-color;
 }
 
 .blue-card {
-    background-color: $second-block-color;
+  background-color: $second-block-color;
 }
 
 .orange-card {
-    background-color: $third-block-color;
+  background-color: $third-block-color;
 }
